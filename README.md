@@ -1,4 +1,4 @@
-# Hritvik Gupta
+#hritvikgupta.github.io
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=hritvikgupta&label=Profile%20views&color=0e75b6&style=flat" alt="hritvikgupta profile views" />

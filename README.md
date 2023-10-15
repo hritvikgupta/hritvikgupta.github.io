@@ -1,2 +1,2 @@
-Hritvik Gupta
+ Hritvik Gupta
 theme: minima

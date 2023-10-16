@@ -1,6 +1,6 @@
 ![profileimage](https://github.com/hritvikgupta/hritvikgupta.github.io/assets/60143996/a60d3e65-a426-4a22-83f5-3cd623a1e0d5)
 
-
+## Hi there 👋, my name is Hritvik
 ## Who am I?
 
 An adept Master's graduate in Computer Engineering from the University of California, Riverside, I have cultivated a diverse skill set through rigorous academic coursework and hands-on projects. Specializing in full stack web development with aquiring skill set like React.js, Node.js, Tailwind and MongoDB, I've contributed to open-source projects and also explored the intricate world of Natural Language Processing (published 3 publications in IEEE Xplore). With a blend of innovative thinking and an intrinsic drive to push technological boundaries, I am poised to contribute effectively to dynamic teams.

@@ -1,4 +1,3 @@
-## Hi there 👋, my name is Hritvik
 ![profileimage](https://github.com/hritvikgupta/hritvikgupta.github.io/assets/60143996/a60d3e65-a426-4a22-83f5-3cd623a1e0d5)
 
 

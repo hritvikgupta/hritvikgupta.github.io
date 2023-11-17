@@ -46,11 +46,14 @@ h3 {
 	font-weight: 600;
 	margin-bottom: 0;
 }
-h1, h2, h3, p {
-    margin-top: 0.5em; /* Reduced top margin for headings and paragraphs */
-    margin-bottom: 0.5em; /* Reduced bottom margin */
+p {
+    margin-top: 10px; /* Reduce top margin for paragraphs */
+    margin-bottom: 10px; /* Reduce bottom margin for paragraphs */
 }
-
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 10px; /* Reduce top margin for headings */
+    margin-bottom: 10px; /* Reduce bottom margin for headings */
+}
 .page-title, .page-body {
     margin-top: 0; /* Remove top margin from title and body */
 }
@@ -66,7 +69,7 @@ h1, h2, h3, p {
 	margin-bottom: 0.75em;
 }
 
-h1 {
+/* h1 {
 	font-size: 1.875rem;
 	margin-top: 1.875rem;
 }
@@ -79,7 +82,7 @@ h2 {
 h3 {
 	font-size: 1.25rem;
 	margin-top: 1.25rem;
-}
+} */
 
 .source {
 	border: 1px solid #ddd;
@@ -676,6 +679,14 @@ blockquote {
 
 .checkbox-off {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+.article {
+    margin: 0 auto; /* Adjust top and bottom margin as needed */
+    max-width: 900px;
+    padding: 20px; /* You can adjust this value */
+}
+.column {
+    padding: 0; /* Remove padding from columns if not needed */
 }
 	
 </style></head>

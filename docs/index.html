@@ -4,71 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hritvik Gupta's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            color: white;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>Hritvik Gupta</h1>
-            </div>
-        </div>
-    </header>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+    </div>
 
-    <section id="about-me">
-        <div class="container">
-            <h2>About Me</h2>
+    <div class="main-content">
+        <!-- About Section -->
+        <div id="about" class="section">
+            <h1>Hritvik Gupta</h1>
+            <p>+1(951) 386-1671 ⋄ Riverside, CA ⋄ hritvik7654@gmail.com</p>
             <p>An adept Master's graduate in Computer Engineering from the University of California, Riverside, specializing in full stack web development and exploring the intricate world of Natural Language Processing.</p>
         </div>
-    </section>
 
-    <section id="education">
-        <div class="container">
+        <!-- Education Section -->
+        <div id="education" class="section">
             <h2>Education</h2>
-            <ul>
-                <li>Master of Science in Computer Engineering, University Of California, Riverside - GPA: 3.7 (Expected Dec 2023)</li>
-                <li>Bachelor of Technology in Computer Science & Engineering, Geetanjali Institute Of Technical Studies Udaipur, India - GPA: 9.25/10 (Graduated May 2022)</li>
-            </ul>
+            <p>University Of California, Riverside - Master of Science Computer Engineering</p>
+            <p>Geetanjali Institute Of Technical Studies Udaipur, India - Bachelor of Technology Computer Science & Engineering</p>
         </div>
-    </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <p>Languages: Python, C++, Java, JavaScript, Typescript, HTML5, CSS3, Kotlin, SQL, SASS.</p>
-            <p>Frameworks: Tensorflow, PyTorch, NLTK, Numpy, Pandas, React.js, Cuda, Node.js, Express, Docker, MongoDB.</p>
-            <p>Technologies: Git, AWS, Machine learning, Deep learning, NLP, Computer vision, Linux, Agile.</p>
-        </div>
-    </section>
-
-    <section id="experience">
-        <div class="container">
+        <!-- Experience Section -->
+        <div id="experience" class="section">
             <h2>Work Experience</h2>
-            <p>Research Intern at Indian Institute Of Technology Roorkee (March 2021 - May 2022)</p>
+            <p>Research Intern - Indian Institute Of Technology Roorkee</p>
+            <!-- Additional experiences here -->
+        </div>
+
+        <!-- Publications Section -->
+        <div id="publications" class="section">
+            <h2>Research Papers</h2>
             <ul>
-                <li>Led AI research in frontal cognition, enhancing system efficiency by 75% with advanced EEG and NLP.</li>
-                <!-- Add more experience points here -->
+                <li>Extractive Text Summarizer with Elmo</li>
+                <li>Text Summarization: LSA Topic Modelling with BERT</li>
+                <li>Micro State EEG Analysis via RNN</li>
             </ul>
         </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <ul>
-                <li>Hybrid Text Summarization Using LDA and T5</li>
-                <li>Image Captioning</li>
-                <li>Text Summarization Using Elmo Embedding</li>
-                <li>E-commerce Website</li>
-                <!-- Add more projects here -->
-            </ul>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>Contact me: hritvik7654@gmail.com</p>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>

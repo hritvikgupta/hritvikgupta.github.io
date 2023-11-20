@@ -66,8 +66,23 @@
       padding-left: 10px;
     }
 
-    .section p, .section ul {
-      line-height: 1.6;
+    .section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .section ul li {
+      padding: 5px 0;
+      border-bottom: 1px solid #eaeaea;
+    }
+
+    .section ul li:last-child {
+      border-bottom: none;
+    }
+
+    .section a {
+      color: #007bff;
+      text-decoration: none;
     }
 
     footer {
@@ -106,12 +121,58 @@
     </div>
 
     <!-- Education Section -->
-    <!-- Add more sections as needed -->
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>University of California - Riverside, Riverside, CA<br>
+          Master of Science, Computer Engineering (2022-23)
+        </li>
+        <li>Geetanjali Institute of Technical Studies, Udaipur, India<br>
+          Bachelor of Technology, Computer Science and Engineering (2018-20)
+        </li>
+      </ul>
+    </div>
+
+    <!-- Past Stints Section -->
+    <div class="section">
+      <h2>Past Stints</h2>
+      <p>Research Intern, IIT Roorkee</p>
+      <ul>
+        <li>Led AI research in frontal cognition, enhancing system efficiency by 75% with advanced EEG and NLP.</li>
+        <li>Designed an innovative approach to signal pre-processing, reducing errors by 30% and expedited project completion.</li>
+        <li>Optimized TensorFlow data pipeline for LLM, enhancing model accuracy using batch optimization by 65%.</li>
+        <li>Collaborated with PhD scholars, team members and co-authored a publication that featured in an IEEE Journal.</li>
+      </ul>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section">
+      <h2>Skills</h2>
+      <p>Languages: Python, C++, Java, JavaScript, TypeScript, HTML5, CSS3, Kotlin, SQL, SASS</p>
+      <p>Frameworks/Technologies: TensorFlow, PyTorch, NLTK, Numpy, Pandas, React.js, Cuda, Node.js, Express, Docker, MongoDB, Git, AWS</p>
+    </div>
+
+    <!-- Research Papers Section -->
+    <div class="section">
+      <h2>Research Papers</h2>
+      <ul>
+        <li><a href="https://ieeexplore.ieee.org/abstract/document/9395976/">Method of text summarization using LSA and sentence based topic modelling with Bert</a><br>
+          M. Gupta, H. Patel. Extractive Text Summarizer with Elmo. In 2020 4th I-SMAC, pages 829–834, 2020.
+        </li>
+        <li><a href="https://ieeexplore.ieee.org/abstract/document/9243610/">Study of extractive text summarizer using the elmo embedding</a><br>
+          M. Gupta, H. Patel. Text Summarization: LSA Topic Modelling with BERT. In 2021 Int. Conf. on AI Smart Systems, pages 511–517, 2021.
+        </li>
+        <li><a href="https://ieeexplore.ieee.org/abstract/document/9696981/">Analysis Of Micro State EEG Signals Through RNN Classification</a><br>
+          H. Gupta and S. Kalla, "Analysis Of Micro State EEG Signals Through RNN Classification," 2021 Innovations in Power and Advanced Computing Technologies (i-PACT), Kuala Lumpur, Malaysia, 2021, pp. 1-6, doi: 10.1109/i-PACT52855.2021.9696981.
+        </li>
+      </ul>
+    </div>
 
   </div>
 
   <footer>
-    <p>&copy; 2023 Hritvik Gupta</p>
+    <p>&copy; 2023 Hritvik Gupta. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
+

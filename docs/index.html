@@ -19,8 +19,10 @@
       padding: 15px;
     }
 
+    /* Responsive Profile Section */
     .profile {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       background: #fff;
       border-radius: 10px;
@@ -29,18 +31,18 @@
     }
 
     .profile img {
-      max-width: 150px;
+      max-width: 100%;
       margin-right: 20px;
       border-radius: 50%;
+      flex-basis: 150px;
     }
 
-    .profile h1 {
+    .profile h1, .profile h3 {
       margin: 0;
       padding: 0;
     }
 
     .profile h3 {
-      margin-top: 5px;
       color: #007bff;
     }
 
@@ -53,8 +55,8 @@
     .profile-links a:hover {
       border-bottom: 1px solid #007bff;
     }
-    
 
+    /* Section Styling */
     .section {
       background: #fff;
       margin-top: 20px;
@@ -65,15 +67,13 @@
     .section h2 {
       border-left: 5px solid #007bff;
       padding-left: 10px;
+      font-weight: bold;
     }
 
     .section ul {
       list-style: none;
       padding: 0;
     }
-    h2 {
-    font-weight: bold; /* This will make the h2 text bold */
-  }
 
     .section ul li {
       padding: 5px 0;
@@ -88,26 +88,40 @@
       color: #007bff;
       text-decoration: none;
     }
-.badges {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px; /* This adds space between the badges */
-}
 
-.badges img {
-  margin: 5px; /* Adds space around each badge */
-  height: auto; /* Maintain aspect ratio */
-}
+    /* Badges and Skills */
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
 
+    .badges img {
+      margin: 5px;
+      height: auto;
+    }
 
+    /* Footer Styling */
     footer {
       text-align: center;
       padding: 20px;
       background: #333;
       color: #fff;
       margin-top: 20px;
+    }
+
+    /* Responsive Design for Smaller Screens */
+    @media screen and (max-width: 768px) {
+      .profile {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .profile img {
+        margin-bottom: 20px;
+      }
     }
   </style>
 </head>
